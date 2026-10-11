@@ -100,4 +100,35 @@ fun ContactCard(
                 overflow = TextOverflow.Ellipsis
             )
 
-            }
+            Spacer(
+                modifier = Modifier.height(
+                    dimensionResource(R.dimen.card_spacing) / 4
+                )
+            )
+
+            Text(
+                text = stringResource(contact.phoneRes),
+                color = colorResource(R.color.text_cyan),
+                fontSize = TextUnit(
+                    dimensionResource(R.dimen.detail_text_size).value,
+                    TextUnitType.Sp
+                ),
+                maxLines = 1,
+                softWrap = false,
+                overflow = TextOverflow.Clip
+            )
+
+            Text(
+                text = stringResource(contact.addressRes),
+                color = addressColor,
+                fontSize = TextUnit(
+                    dimensionResource(R.dimen.detail_text_size).value,
+                    TextUnitType.Sp
+                ),
+                maxLines = 2,
+                overflow = TextOverflow.Ellipsis
+            )
+        }
+
+    }
+}
