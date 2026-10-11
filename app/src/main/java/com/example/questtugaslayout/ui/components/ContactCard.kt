@@ -47,4 +47,20 @@ fun ContactCard(
             FontFamily.Default
         }
 
-}
+    Row(
+        modifier = modifier
+            .fillMaxWidth()
+            .height(dimensionResource(R.dimen.card_height))
+            .clip(
+                RoundedCornerShape(
+                    dimensionResource(R.dimen.card_corner_radius)
+                )
+            )
+            .background(cardColor)
+            .padding(dimensionResource(R.dimen.card_spacing)),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(
+            dimensionResource(R.dimen.logo_text_spacing)
+        )
+    ) {
+    }
