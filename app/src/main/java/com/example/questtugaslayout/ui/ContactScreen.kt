@@ -107,4 +107,31 @@ fun ContactScreen() {
             )
         )
 
-    }}
+        Column(
+            modifier = Modifier.fillMaxWidth(),
+            verticalArrangement = Arrangement.spacedBy(
+                dimensionResource(R.dimen.card_spacing)
+            )
+        ) {
+            contacts.forEach { contact ->
+                ContactCard(contact = contact)
+            }
+        }
+
+        Spacer(modifier = Modifier.weight(1f))
+
+        Text(
+            text = stringResource(R.string.copyright),
+            fontSize = TextUnit(
+                dimensionResource(R.dimen.copyright_text_size).value,
+                TextUnitType.Sp
+            ),
+            color = colorResource(R.color.text_dark),
+            modifier = Modifier.padding(
+                bottom = dimensionResource(
+                    R.dimen.copyright_bottom_spacing
+                )
+            )
+        )
+    }
+}
