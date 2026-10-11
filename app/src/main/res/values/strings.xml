@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QuestTugasLayout_0154</string>
+    <string name="screen_title">Teknologi Informasi</string>
+    <string name="university_name">Universitas Muhammadiyah Yogyakarta</string>
+
+    <string name="contact_nur">Nur Zukhrufiyati Sartika </string>
+    <string name="phone_nur">081245014639</string>
+    <string name="address_nur">Ketapang, Lampung Selatan</string>
+
+    <string name="contact_sukma">Sukma Hawa Iza </string>
+    <string name="phone_sukma">081374023879</string>
+    <string name="address_sukma">Pemalang, Jawa Tengah</string>
+
+    <string name="contact_rara">Rara Andini Batrisyia</string>
+    <string name="phone_rara">081248064190</string>
+    <string name="address_rara">Manado, Sulawesi Utara</string>
+
+    <string name="contact_salwa">Salwa Anjaini Futri </string>
+    <string name="phone_salwa">082176382901</string>
+    <string name="address_salwa">Bekasi, Jawa Barat</string>
+
+    <string name="copyright">Copyright, 2026</string>
+    <string name="campus_logo_description">Logo Universitas Muhammadiyah Yogyakarta</string>
+</resources>
