@@ -60,4 +60,19 @@ fun ContactScreen() {
         )
     )
 
-    }
+    Column(
+        modifier = Modifier
+            .fillMaxSize()
+            .background(colorResource(R.color.screen_background))
+            .padding(
+                horizontal = dimensionResource(R.dimen.screen_padding)
+            ),
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+        Spacer(
+            modifier = Modifier.height(
+                dimensionResource(R.dimen.header_top_spacing)
+            )
+        )
+
+    }}
