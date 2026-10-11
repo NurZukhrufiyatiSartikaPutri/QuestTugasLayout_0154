@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="screen_padding">20dp</dimen>
+
+    <!-- Ukuran kartu dan jarak antar elemen -->
+    <dimen name="card_height">104dp</dimen>
+    <dimen name="card_spacing">10dp</dimen>
+    <dimen name="card_corner_radius">18dp</dimen>
+    <dimen name="logo_size">56dp</dimen>
+    <dimen name="logo_text_spacing">6dp</dimen>
+
+    <!-- Posisi dan ukuran judul -->
+    <dimen name="header_top_spacing">60dp</dimen>
+    <dimen name="header_text_offset">8dp</dimen>
+    <dimen name="title_text_size">28sp</dimen>
+    <dimen name="subtitle_text_size">16sp</dimen>
+    <dimen name="header_bottom_spacing">22dp</dimen>
+
+    <!-- Ukuran teks kontak -->
+    <dimen name="name_text_size">18sp</dimen>
+    <dimen name="detail_text_size">12sp</dimen>
+    <dimen name="card_text_offset">8dp</dimen>
+
+    <!-- Jarak copyright dari bagian bawah layar -->
+    <dimen name="copyright_text_size">12sp</dimen>
+    <dimen name="copyright_bottom_spacing">24dp</dimen>
+</resources>
