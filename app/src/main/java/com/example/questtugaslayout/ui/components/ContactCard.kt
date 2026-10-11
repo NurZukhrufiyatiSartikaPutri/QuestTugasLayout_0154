@@ -74,3 +74,30 @@ fun ContactCard(
             )
         )
 
+        // Informasi kontak diturunkan sedikit
+        Column(
+            modifier = Modifier
+                .weight(1f)
+                .offset(
+                    y = dimensionResource(R.dimen.card_text_offset)
+                ),
+            verticalArrangement = Arrangement.Center
+        ) {
+            Text(
+                text = stringResource(contact.nameRes),
+                color = nameColor,
+                fontSize = TextUnit(
+                    dimensionResource(R.dimen.name_text_size).value,
+                    TextUnitType.Sp
+                ),
+                lineHeight = TextUnit(
+                    dimensionResource(R.dimen.name_text_size).value,
+                    TextUnitType.Sp
+                ),
+                fontWeight = FontWeight.Bold,
+                fontFamily = nameFontFamily,
+                maxLines = 2,
+                overflow = TextOverflow.Ellipsis
+            )
+
+            }
