@@ -75,4 +75,36 @@ fun ContactScreen() {
             )
         )
 
+        Column(
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+            Text(
+                text = stringResource(R.string.screen_title),
+                modifier = Modifier.padding(
+                    top = dimensionResource(R.dimen.header_text_offset)
+                ),
+                fontSize = TextUnit(
+                    dimensionResource(R.dimen.title_text_size).value,
+                    TextUnitType.Sp
+                ),
+                fontWeight = FontWeight.Bold,
+                color = colorResource(R.color.text_dark)
+            )
+
+            Text(
+                text = stringResource(R.string.university_name),
+                fontSize = TextUnit(
+                    dimensionResource(R.dimen.subtitle_text_size).value,
+                    TextUnitType.Sp
+                ),
+                color = colorResource(R.color.text_dark)
+            )
+        }
+
+        Spacer(
+            modifier = Modifier.height(
+                dimensionResource(R.dimen.header_bottom_spacing)
+            )
+        )
+
     }}
