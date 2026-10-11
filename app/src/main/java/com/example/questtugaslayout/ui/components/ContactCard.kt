@@ -63,4 +63,14 @@ fun ContactCard(
             dimensionResource(R.dimen.logo_text_spacing)
         )
     ) {
-    }
+        // Logo UMY sebelah kiri
+        Image(
+            painter = painterResource(R.drawable.logo_umy),
+            contentDescription = stringResource(
+                R.string.campus_logo_description
+            ),
+            modifier = Modifier.size(
+                dimensionResource(R.dimen.logo_size)
+            )
+        )
+
